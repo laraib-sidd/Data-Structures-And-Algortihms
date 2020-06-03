@@ -11,5 +11,10 @@ class MyArray:
         self.length+=1  
         return self.length
 
-
+    def pop(self):
+        last = self.data[self.length - 1] 
+        del self.data[self.length-1]
+        self.length-=1
+        return last
+         
  
