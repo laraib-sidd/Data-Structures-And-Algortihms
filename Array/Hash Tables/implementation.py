@@ -6,3 +6,9 @@ class Hashtable():
 
     def __str__(self):
         return str(self.__dict__)
+    
+    def _hash(self):
+        while True:
+            x = randint(0,49)
+            if x not in self.addr_list:
+                return x
