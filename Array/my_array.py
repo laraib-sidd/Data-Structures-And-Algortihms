@@ -5,4 +5,10 @@ class MyArray:
     
     def get(self,index):
         return self.data[index]
-        
+
+    def push(self,item):
+        self.data[self.length] = item
+        self.length+=1 
+
+
+ 
