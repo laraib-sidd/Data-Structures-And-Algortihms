@@ -1,3 +1,6 @@
+'''
+Merge Sort Implemetation
+'''
 from random import randint
 
 
@@ -18,7 +21,7 @@ class Hashtable():
     def set(self, key, value):
         address = self._hash()
         self.mydict[address] = [key, value]
-        self.addr_list.append[address]
+        self.addr_list.append(address)
 
     def get(self, key):
 
@@ -26,16 +29,23 @@ class Hashtable():
             if self.mydict[i][0] == key:
                 return self.mydict[i][1]
 
-    def key(self):
+    def keys(self):
         key_arr = []
         for i in self.add_list:
             key_arr.append(self.mydict[i][0])
         return key_arr
 
 
+# Example
 prices = Hashtable()
 prices.set('grapes', 1000)
 prices.set('apples', 12)
 prices.set('oranges', 300)
 prices.set('bananas', 3243)
+
+grape_price = prices.get('grapes')
+keys = prices.keys()
+
 print(prices)
+print(grape_price)
+print(keys)
