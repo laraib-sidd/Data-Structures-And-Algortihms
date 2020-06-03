@@ -19,3 +19,10 @@ class Hashtable():
         address = self._hash()
         self.mydict[address] = [key, value]
         self.addr_list.append[address]
+
+    def get(self, key):
+
+        for i in self.addr_list:
+            if self.mydict[i][0] == key:
+                return self.mydict[i][1]
+
