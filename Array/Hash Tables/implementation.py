@@ -31,12 +31,14 @@ class Hashtable():
                 return self.mydict[i][1]
 
     def keys(self):
+        # Complexity = O(n)
         key_arr = []
         for i in self.addr_list:
             key_arr.append(self.mydict[i][0])
         return key_arr
 
     def items(self, key):
+        # Complexity = O(n)
         for i in self.addr_list:
             if self.mydict[i][0] == key:
                 return self.mydict[i]
