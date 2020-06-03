@@ -24,7 +24,7 @@ class MyArray:
         item = self.data[index]
         for i in range(index,self.length-1):
             self.data[i] = self.data[i+1]
-        
+    
         del self.data[self.length-1]
         self.length-=1
         return item
@@ -39,4 +39,5 @@ arr.push('hey')
 arr.push('welcome')
 arr.delete(3)
 print(arr)
+
   
