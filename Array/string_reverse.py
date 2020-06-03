@@ -7,12 +7,15 @@ Output : "?uoy era woh iH"
 def reverse(string):
     """
     Function to reverse string
-    """
-    string = list(string)
-    string = string[::-1]
-    string = "".join(string)
-    return string
-
+    """ 
+    try:
+        if string:
+            string = list(string)
+            string = string[::-1]
+            string = "".join(string)
+            return string
+    except:
+        print("Check Your Input")
 
 word = reverse("This function Reverses string")
 print(word)
