@@ -3,5 +3,6 @@ class Hashtable():
     def __init__(self):
         self.mydict = ['None']*50
         self.addr_list = []
-    
-    def 
+
+    def __str__(self):
+        return str(self.__dict__)
