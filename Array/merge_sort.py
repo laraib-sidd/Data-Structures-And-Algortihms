@@ -1,13 +1,13 @@
-# Shortcut way
-#  def mergesortedarr(a,b):
-#  x=a+b
-#  x.sort()
-#  return x
+""" Shortcut way
+ def mergesortedarr(a,b):
+ x=a+b
+ x.sort()
+ return x
 
-# a=[1,2,3,4]
-# b=[3,7,9,12]
-# qw=mergesortedarr(a,b)
-# print(qw)
+a=[1,2,3,4]
+b=[3,7,9,12]
+qw=mergesortedarr(a,b)
+print(qws) """
 
 #In interview we must solve only like this
 
