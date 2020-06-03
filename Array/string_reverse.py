@@ -9,7 +9,7 @@ def reverse(string):
     Function to reverse string
     """ 
     try:
-        if string:
+        if string or len(string)>2:
             string = list(string)
             string = string[::-1]
             string = "".join(string)
