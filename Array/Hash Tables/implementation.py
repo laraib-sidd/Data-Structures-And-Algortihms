@@ -31,3 +31,11 @@ class Hashtable():
         for i in self.add_list:
             key_arr.append(self.mydict[i][0])
         return key_arr
+
+
+prices = Hashtable()
+prices.set('grapes', 1000)
+prices.set('apples', 12)
+prices.set('oranges', 300)
+prices.set('bananas', 3243)
+print(prices)
