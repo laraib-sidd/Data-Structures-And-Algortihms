@@ -19,12 +19,13 @@ class Hashtable():
                 return x
 
     def set(self, key, value):
+        # Complexity = O(1)
         address = self._hash()
         self.mydict[address] = [key, value]
         self.addr_list.append(address)
 
     def get(self, key):
-
+        # Complexity = O(1) without collisons
         for i in self.addr_list:
             if self.mydict[i][0] == key:
                 return self.mydict[i][1]
@@ -49,7 +50,7 @@ prices.set('oranges', 300)
 prices.set('bananas', 3243)
 
 grape_price = prices.get('grapes')
-keys = prices.keys()
+keys = prices.keys() 
 item = prices.items('grapes')
 
 print(prices)
