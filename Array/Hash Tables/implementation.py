@@ -26,3 +26,8 @@ class Hashtable():
             if self.mydict[i][0] == key:
                 return self.mydict[i][1]
 
+    def key(self):
+        key_arr = []
+        for i in self.add_list:
+            key_arr.append(self.mydict[i][0])
+        return key_arr
