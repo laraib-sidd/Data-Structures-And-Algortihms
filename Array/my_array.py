@@ -16,5 +16,12 @@ class MyArray:
         del self.data[self.length-1]
         self.length-=1
         return last
-         
- 
+    
+    def delete(self,index):   
+        item = self.data[index]
+        for i in range(index,self.length-1):
+            self.data[i] = self.data[i+1]
+        
+        del self.data[self.length-1]
+        self.length-=1
+        return item
