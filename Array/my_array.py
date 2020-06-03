@@ -3,4 +3,6 @@ class MyArray:
         self.length = 0
         self.data = {}
     
-    def
+    def f(self):
+        pass
+        print('fd')
