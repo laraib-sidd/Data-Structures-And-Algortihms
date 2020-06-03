@@ -8,7 +8,8 @@ class MyArray:
 
     def push(self,item):
         self.data[self.length] = item
-        self.length+=1 
+        self.length+=1  
+        return self.length
 
 
  
