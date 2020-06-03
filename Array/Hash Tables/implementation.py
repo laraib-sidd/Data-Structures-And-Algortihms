@@ -35,6 +35,11 @@ class Hashtable():
             key_arr.append(self.mydict[i][0])
         return key_arr
 
+    def items(self, key):
+        for i in self.addr_list:
+            if self.mydict[i][0] == key:
+                return self.mydict[i]
+
 
 # Example
 prices = Hashtable()
@@ -45,7 +50,9 @@ prices.set('bananas', 3243)
 
 grape_price = prices.get('grapes')
 keys = prices.keys()
+item = prices.items('grapes')
 
 print(prices)
 print(grape_price)
 print(keys)
+print(item)
