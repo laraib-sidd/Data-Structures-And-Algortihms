@@ -20,8 +20,9 @@ class Hashtable():
 
     def set(self, key, value):
         address = self._hash()
-        self.mydict[address] = [key, value]
-        self.addr_list.append(address)
+        if address not in self.addr_list:
+            self.mydict[address] = [key, value]
+            self.addr_list.append(address)
 
     def get(self, key):
 
