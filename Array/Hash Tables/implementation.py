@@ -16,4 +16,6 @@ class Hashtable():
                 return x
 
     def set(self, key, value):
-        pass
+        address = self._hash()
+        self.mydict[address] = [key, value]
+        self.addr_list.append[address]
