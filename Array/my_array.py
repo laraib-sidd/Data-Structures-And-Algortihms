@@ -6,3 +6,4 @@ class MyArray:
     def f(self):
         pass
         print('fd')
+        ds
