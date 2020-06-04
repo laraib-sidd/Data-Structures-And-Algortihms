@@ -13,6 +13,20 @@ It should return undefined """
 return 5 because the pairs are before 2,2 """
 
 
+# Approach without hashtable
+# Complexity = O(n)
+# Space Complexity = O(1)
+def func(mylist):
+    for i in range(0,len(mylist)):
+        for j in range(i+1,len(mylist)):
+        if mylist[i] == mylist[j]:
+            return mylist[i] 
+    return 0
+
+
+# Approach with hashtable
+# Complexity = O(1)
+# Space Complexity = O(n) worst case
 def recurring_character(mylist):
     my_dict = {}
     for i in range(0, len(mylist)):
