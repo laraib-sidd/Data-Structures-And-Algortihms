@@ -15,7 +15,7 @@ return 5 because the pairs are before 2,2 """
 
 def recurring_character(mylist):
     my_dict = {}
-    for i in range(0,len(my_dict)):
+    for i in range(0,len(mylist)):
         if mylist[i] in my_dict:
             return mylist[i]
         else:
@@ -26,3 +26,5 @@ def recurring_character(mylist):
 mylist = [2,1,1,2,3,4,5]
 test = recurring_character(mylist)
 print(test)
+
+
