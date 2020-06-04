@@ -17,10 +17,10 @@ return 5 because the pairs are before 2,2 """
 # Complexity = O(n)
 # Space Complexity = O(1)
 def func(mylist):
-    for i in range(0,len(mylist)):
-        for j in range(i+1,len(mylist)):
-        if mylist[i] == mylist[j]:
-            return mylist[i] 
+    for i in range(0, len(mylist)):
+        for j in range(i+1, len(mylist)):
+            if mylist[i] == mylist[j]:
+                return mylist[i]
     return 0
 
 
