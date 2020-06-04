@@ -14,7 +14,7 @@ return 5 because the pairs are before 2,2 """
 
 
 # Approach without hashtable
-# Complexity = O(n)
+# Complexity = O(n^2)
 # Space Complexity = O(1)
 def func(mylist):
     for i in range(0, len(mylist)):
@@ -25,7 +25,7 @@ def func(mylist):
 
 
 # Approach with hashtable
-# Complexity = O(1)
+# Complexity = O(n)
 # Space Complexity = O(n) worst case
 def recurring_character(mylist):
     my_dict = {}
