@@ -15,10 +15,10 @@ class Queue:
     def peek(self):
         pass
 
-    def push(self, data):
+    def enqueue(self, data):
         pass
 
-    def pop(self):
+    def dequeue(self):
         pass
 
     def printt(self):
