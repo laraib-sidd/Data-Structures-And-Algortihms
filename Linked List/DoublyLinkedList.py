@@ -64,12 +64,12 @@ class DoublyLinkedList:
             new_node.prev = leader
             holder.prev = new_node
             self.length += 1
-    
-    def remove(self,index):
+
+    def remove(self, index):
         if index == self.length - 1:
             self.tail = self.tail.prev
             self.tail.next = None
             self.length -= 1
-            
+
 
 
