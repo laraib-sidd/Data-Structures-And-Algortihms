@@ -92,3 +92,6 @@ class LinkedList():
             temp.next = prev
             prev = temp
         self.head = temp
+
+
+ll = LinkedList()
