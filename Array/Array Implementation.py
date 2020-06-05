@@ -32,12 +32,13 @@ class MyArray:
 
 
 # Examples
-arr = MyArray()
-arr.push(3)
-arr.push('hi')
-arr.push(34)
-arr.push(20)
-arr.push('hey')
-arr.push('welcome')
-arr.delete(3)
-print(arr)
+if __name__ == "__main__":    
+    arr = MyArray()
+    arr.push(3)
+    arr.push('hi')
+    arr.push(34)
+    arr.push(20)
+    arr.push('hey')
+    arr.push('welcome')
+    arr.delete(3)
+    print(arr)
