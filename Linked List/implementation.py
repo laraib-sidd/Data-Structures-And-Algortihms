@@ -54,7 +54,8 @@ class LinkedList():
             return True
 
         while i < self.length:
-            if i == index - 1:
+            if i == index - 1: # to reach the node before the desired node
+                
                 temp.next, new_node.next = new_node, temp.next
                 break
             temp = temp.next
