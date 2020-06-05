@@ -11,7 +11,7 @@ class Queue:
         self.first = None
         self.last = None
         self.lenght = 0
-    
+
     def isEmpty():
         pass
 
@@ -20,7 +20,7 @@ class Queue:
 
     def enqueue(self, data):
         pass
-              
+
     def dequeue(self):
         pass
 
