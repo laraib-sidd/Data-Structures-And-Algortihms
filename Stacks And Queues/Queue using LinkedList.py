@@ -21,7 +21,9 @@ class Queue:
     def enqueue(self, data):
         new_node = Node(data)
         if self.first is None:
-            self.first 
+            self.first = new_node
+            self.last = new_node
+            self.lenght += 1
 
     def dequeue(self):
         pass
