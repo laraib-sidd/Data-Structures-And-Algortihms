@@ -83,7 +83,6 @@ class DoublyLinkedList:
     def traversetoindex(self, index):
         curr_node = self.head
         i = 0
-        j = 0
         while i != index:
             curr_node = curr_node.next
             i += 1
