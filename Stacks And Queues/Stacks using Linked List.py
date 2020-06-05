@@ -53,7 +53,7 @@ class Stack:
         print()
 
 
-# Example
+# Driver Code
 if __name__ == "__main__":
     st = Stack()
     st.push('Google')

@@ -36,7 +36,7 @@ def mergesortarray(arr1, arr2):
     return mereged_array+arr1[i:]+arr2[j:]
 
 
-# Example
+# Driver Code
 if __name__ == "__main__":
     a = [1, 3, 4, 6, 20]
     b = [2, 3, 4, 5, 6, 9, 11, 76]

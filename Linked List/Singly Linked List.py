@@ -100,7 +100,7 @@ class LinkedList:
         self.head = temp
 
 
-# Example
+# Driver Code
 if __name__ == "__main__":
     ll = LinkedList()
     ll.append(4)

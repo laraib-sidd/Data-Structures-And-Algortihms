@@ -44,7 +44,7 @@ class Hashtable:
                 return self.mydict[i]
 
 
-# Example
+# Driver Code
 if __name__ == "__main__":
     prices = Hashtable()
     prices.set('grapes', 1000)

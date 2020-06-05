@@ -1,6 +1,6 @@
 '''
 Function to reverse a string.
-Example:
+Driver Code:
 Input : "Hi how are you?"
 Output : "?uoy era woh iH"
 '''
