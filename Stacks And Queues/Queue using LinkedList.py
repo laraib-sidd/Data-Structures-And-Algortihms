@@ -12,7 +12,7 @@ class Queue:
         self.last = None
         self.lenght = 0
 
-    def isEmpty():
+    def isEmpty(self):
         pass
 
     def peek(self):
