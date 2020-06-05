@@ -19,6 +19,6 @@ def reverse(string):
     except KeyboardInterrupt:
         print("Check Your Input")
 
-
-word = reverse("This function Reverses string")
-print(word)
+if __name__ == "__main__":
+    word = reverse("This function Reverses string")
+    print(word)
