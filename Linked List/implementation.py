@@ -48,4 +48,10 @@ class LinkedList():
             i += 1
 
     def remove(self, index):
-        pass
+        temp = self.head
+        i = 0
+        while i < self.length:
+            if index == 0:
+                self.head = temp.next
+                self.length -= 1
+                break
