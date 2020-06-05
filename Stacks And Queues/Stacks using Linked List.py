@@ -37,16 +37,9 @@ class Stack:
         self.length += 1
 
     def pop(self):
-        i = 1
-        curr_node = self.bottom
-        while i != self.length-1:
-            curr_node = curr_node.next
-            i += 1
-        popped_value = curr_node.next
-        curr_node.next = None
-        self.top = curr_node
-        self.length -= 1
-        return popped_value.data
+        if self.isEmpty():
+            return None
+        
 
     def printt(self):
         temp = self.bottom
