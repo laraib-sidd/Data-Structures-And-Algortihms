@@ -13,7 +13,10 @@ class Stack:
         self.length = 0
 
     def isEmpty(self):
-        return self.top is None
+        if self.head == None:
+            return True
+        else:
+            return False
 
     def peek(self):
         if self.length == 0:
