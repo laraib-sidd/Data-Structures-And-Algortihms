@@ -32,7 +32,7 @@ class MyArray:
 
 
 # Examples
-if __name__ == "__main__":    
+if __name__ == "__main__":
     arr = MyArray()
     arr.push(3)
     arr.push('hi')
