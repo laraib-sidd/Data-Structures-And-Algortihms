@@ -51,10 +51,16 @@ class DoublyLinkedList:
         if index == 0:
             self.prepend(data)
             return True
-        
+
         if index >= self.length:
             self.append(data)
             return True
-        
+
         else:
-            
+            leader = self.traversetoindex(index - 1)
+            holder = leader.next
+            leader.next = new_node
+            new_node.next = holder
+            new_node.prev = leader
+            holder.prev = new_node
+            self.length += 1
