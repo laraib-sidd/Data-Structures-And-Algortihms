@@ -8,8 +8,7 @@ class Stack:
         return str(self.__dict__())
 
     def peek(self):
-        
-
+        return self.arr[self.length - 1]
 
     def isEmpty(self):
         return len(self.arr) == 0
