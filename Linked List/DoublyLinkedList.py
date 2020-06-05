@@ -87,3 +87,11 @@ class DoublyLinkedList:
             curr_node = curr_node.next
             i += 1
         return curr_node
+    
+    def printd(self):
+        temp = self.head
+        while temp is not None:
+            print(temp.data, end=' ')
+            temp = temp.next
+        pritn()
+        print(f'Length : '{self.length})
