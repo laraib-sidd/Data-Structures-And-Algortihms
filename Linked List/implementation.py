@@ -70,3 +70,12 @@ class LinkedList():
         print()
         print(f'Length = {self.length}')
 
+    def reverse(self):
+        prev = None
+        self.tail = self.head
+        while self.head is not None:
+            temp = self.head
+            self.head = self.head.next
+            temp.next = prev
+            prev = temp
+        self.head = temp
