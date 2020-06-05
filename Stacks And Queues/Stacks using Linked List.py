@@ -21,16 +21,17 @@ class Stack:
 
     def push(self, data):
         new_node = Node(data)
-        if self.length:
-            self.top = new_node
+        if self.length == 0:
             self.bottom = new_node
+            self.top = self.bottom
             self.length = 1
         else:
             self.top.next = new_node
-            new_node = self.top
+            self.top = new_node
+            self.length += 1
 
     def pop(self):
-        pass
+        i = 1
 
     def isempty(self):
         pass
