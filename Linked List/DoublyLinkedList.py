@@ -55,4 +55,6 @@ class DoublyLinkedList:
         if index >= self.length:
             self.append(data)
             return True
+        
+        while i <
 
