@@ -5,7 +5,7 @@ class Stack:
         self.arr = []
 
     def __str__(self):
-        return str(self.__dict__())
+        return str(self.__dict__)
 
     def peek(self):
         return self.arr[self.length - 1]
@@ -14,7 +14,8 @@ class Stack:
         return len(self.arr) == 0
 
     def push(self, data):
-        return self.arr.append(data)
+        self.arr.append(data)
+        self.length += 1
 
     def pop(self):
         return self.arr.pop()
@@ -28,4 +29,4 @@ if __name__ == "__main__":
     st.push('Legend of the galactic heroes')
     st.pop()
     print(st.isEmpty())
-    print(st.arr)
+    print(st)
