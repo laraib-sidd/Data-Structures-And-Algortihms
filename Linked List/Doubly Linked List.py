@@ -98,19 +98,19 @@ class DoublyLinkedList:
 
 
 # Example
-dd = DoublyLinkedList()
-dd.append(13)
-dd.append(15)
-dd.append(432)
-dd.prepend(32)
-dd.printd()
-print('\n')
+    dd = DoublyLinkedList()
+    dd.append(13)
+    dd.append(15)
+    dd.append(432)
+    dd.prepend(32)
+    dd.printd()
+    print('\n')
 
-dd.insert(3, 391)
-dd.insert(5, 3121)
-dd.printd()
-print('\n')
+    dd.insert(3, 391)
+    dd.insert(5, 3121)
+    dd.printd()
+    print('\n')
 
-dd.remove(3)
-dd.remove(4)
-dd.printd()
+    dd.remove(3)
+    dd.remove(4)
+    dd.printd()
