@@ -8,23 +8,23 @@ a=[1,2,3,4]
 b=[3,7,9,12]
 qw=mergesortedarr(a,b)
 print(qws) """
+# In interview we must solve only like this
 
-#In interview we must solve only like this
 
-def mergesortarray(arr1,arr2):
+def mergesortarray(arr1, arr2):
     '''
     Function to implement merge
     '''
 
-    if len(arr1)==0 or len(arr2)==0:
+    if len(arr1) == 0 or len(arr2) == 0:
         return arr1 + arr2
-    
+
     mereged_array = []
     i = 0
     j = 0
-    
+
     while i < len(arr1) and j < len(arr2):
-        print(arr1[i],arr2[j])
+        print(arr1[i], arr2[j])
         if arr1[i] <= arr2[j]:
             mereged_array.append(arr1[i])
             i+=1
