@@ -20,3 +20,6 @@ class Stack:
 
     def pop(self):
         pass
+
+    def isempty(self):
+        pass
