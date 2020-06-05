@@ -39,7 +39,11 @@ class Stack:
     def pop(self):
         if self.isEmpty():
             return None
-        
+        else:
+            popped_node = self.top
+            self.top = self.head.next
+            popped_node.next = None
+            return popped_node
 
     def printt(self):
         temp = self.bottom
