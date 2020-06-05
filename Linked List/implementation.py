@@ -43,6 +43,7 @@ class LinkedList():
         new_node = Node(data)
         new_node.next = self.head
         self.head = new_node
+        self.length += 1
 
     def insert(self, index, data):
         new_node = Node(data)
@@ -99,4 +100,5 @@ ll.append(4)
 ll.append(14)
 ll.append(1)
 ll.append(544)
+ll.prepend(43)
 ll.printl()
