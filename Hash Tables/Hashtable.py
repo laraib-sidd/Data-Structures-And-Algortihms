@@ -45,17 +45,18 @@ class Hashtable:
 
 
 # Example
-prices = Hashtable()
-prices.set('grapes', 1000)
-prices.set('apples', 12)
-prices.set('oranges', 300)
-prices.set('bananas', 3243)
+if __name__ == "__main__":
+    prices = Hashtable()
+    prices.set('grapes', 1000)
+    prices.set('apples', 12)
+    prices.set('oranges', 300)
+    prices.set('bananas', 3243)
 
-grape_price = prices.get('grapes')
-keys = prices.keys()
-item = prices.items('grapes')
+    grape_price = prices.get('grapes')
+    keys = prices.keys()
+    item = prices.items('grapes')
 
-print(prices)
-print(grape_price)
-print(keys)
-print(item)
+    print(prices)
+    print(grape_price)
+    print(keys)
+    print(item)
