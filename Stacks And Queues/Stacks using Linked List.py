@@ -13,7 +13,7 @@ class Stack:
         self.length = 0
 
     def isEmpty(self):
-        if self.head == None:
+        if self.head is None:
             return True
         else:
             return False
