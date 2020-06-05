@@ -13,10 +13,21 @@ class Stack:
         self.length = 0
 
     def peek(self):
-        pass
+        if self.length == 0:
+            print("The stack is empty")
+            return False
+        else:
+            return self.top
 
     def push(self, data):
-        pass
+        new_node = Node(data)
+        if self.length:
+            self.top = new_node
+            self.bottom = new_node
+            self.length = 1
+        else:
+            self.top.next = new_node
+            new_node = self.top
 
     def pop(self):
         pass
