@@ -71,9 +71,19 @@ class DoublyLinkedList:
             self.tail.next = None
             self.length -= 1
             return True
-        
+
         else:
-            leader = 
+            leader = self.traversetoindex(index - 1)
+            unwanted_node = leader.next
+            holder = unwanted_node.next
+            leader.next = holder
+            holder.prev = leader
+            self.length -= 1
 
-
-
+    def traversetoindex(self, index):
+        curr_node = self.head
+        i = 0
+        while i != index:
+            curr_node = curr_node.next
+            i += 1
+        return curr_node
