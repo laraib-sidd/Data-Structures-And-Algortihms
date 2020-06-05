@@ -26,13 +26,14 @@ class LinkedList():
     def __init__(self):
         self.head = None
         self.tail = None
+        self.length = 0
 
     def append(self, data):
         new_node = Node(data)
         if self.head is None:
             self.head = new_node
             self.tail = new_node
-            self.length = 1
+            self.length += 1
 
         else:
             self.tail.next = new_node
