@@ -1,8 +1,8 @@
 class Stack:
 
     def __init__(self):
-        self.length = 0
         self.arr = []
+        self.length = 0
 
     def __str__(self):
         return str(self.__dict__)
