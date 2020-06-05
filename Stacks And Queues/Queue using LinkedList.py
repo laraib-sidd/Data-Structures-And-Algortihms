@@ -16,10 +16,12 @@ class Queue:
         return self.first is None
 
     def peek(self):
-        pass
+        return self.first.data
 
     def enqueue(self, data):
-        pass
+        new_node = Node(data)
+        if self.first is None:
+            self.first 
 
     def dequeue(self):
         pass
