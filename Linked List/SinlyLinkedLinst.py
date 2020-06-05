@@ -50,6 +50,10 @@ class LinkedList():
         new_node = Node(data)
         i = 0
         temp = self.head
+        if index == 0:
+            self.prepend(data)
+            return True
+
         if index >= self.length:
             self.append(data)
             return True
