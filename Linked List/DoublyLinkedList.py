@@ -24,5 +24,3 @@ class DoublyLinkedList:
     def __init__(self):
         self.next = None
         self.prev = None
-
-        
