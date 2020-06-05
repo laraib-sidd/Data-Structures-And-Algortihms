@@ -70,6 +70,10 @@ class DoublyLinkedList:
             self.tail = self.tail.prev
             self.tail.next = None
             self.length -= 1
+            return True
+        
+        else:
+            leader = 
 
 
 

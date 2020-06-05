@@ -26,7 +26,7 @@ class LinkedList():
     def __init__(self):
         self.head = None
         self.tail = None
-        self.length = 0
+        self.length = 1
 
     def append(self, data):
         new_node = Node(data)
@@ -109,6 +109,7 @@ ll.append(544)
 ll.prepend(43)
 ll.insert(2, 45)
 ll.remove(2)
+ll.remove(4)
 ll.printl()
 print('\n')
 ll.reverse()
