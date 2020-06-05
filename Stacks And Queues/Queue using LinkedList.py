@@ -11,6 +11,9 @@ class Queue:
         self.first = None
         self.last = None
         self.lenght = 0
+    
+    def isEmpty():
+        pass
 
     def peek(self):
         pass
