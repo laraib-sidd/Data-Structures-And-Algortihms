@@ -18,7 +18,10 @@ class Stack:
         self.length += 1
 
     def pop(self):
-        return self.arr.pop()
+        popped_item = self.arr[self.length - 1]
+        del self.arr[self.length - 1]
+        self.length -= 1
+        return popped_item
 
 
 # Driver Code
