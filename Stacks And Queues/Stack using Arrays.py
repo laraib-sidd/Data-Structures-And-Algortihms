@@ -5,7 +5,10 @@ class Stack:
         self.arr = []
 
     def isEmpty(self):
-        return self.arr is None
+        return len(self.arr) == 0
 
 
 # Driver Code
+if __name__ == "__main__":
+    st = Stack()
+    print(st.isEmpty())
