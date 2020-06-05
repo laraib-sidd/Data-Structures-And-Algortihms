@@ -2,6 +2,15 @@
 Linked List Implemetation
 15 --> 6 --> 8
 '''
+'''
+Linked List Complxity:
+Prepend : O(1)
+Append : O(1)
+lookup : O(n)
+insert : O(n)
+delete : O(n)
+delete : O(n)
+'''
 
 
 class Node():
