@@ -17,7 +17,7 @@ class Queue:
 
     def enqueue(self, data):
         pass
-
+                        
     def dequeue(self):
         pass
 
