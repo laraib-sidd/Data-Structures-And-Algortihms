@@ -37,7 +37,8 @@ def mergesortarray(arr1, arr2):
 
 
 # Example
-a = [1, 3, 4, 6, 20]
-b = [2, 3, 4, 5, 6, 9, 11, 76]
-arr = mergesortarray(a, b)
-print(arr)
+if __name__ == "__main__":
+    a = [1, 3, 4, 6, 20]
+    b = [2, 3, 4, 5, 6, 9, 11, 76]
+    arr = mergesortarray(a, b)
+    print(arr)
