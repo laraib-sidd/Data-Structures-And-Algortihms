@@ -27,11 +27,11 @@ def mergesortarray(arr1, arr2):
         print(arr1[i], arr2[j])
         if arr1[i] <= arr2[j]:
             mereged_array.append(arr1[i])
-            i+=1
-        
+            i += 1
+
         elif arr1[i] > arr2[j]:
             mereged_array.append(arr2[j])
-            j+=1      
+            j += 1
 
     return mereged_array+arr1[i:]+arr2[j:]
 
