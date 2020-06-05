@@ -12,13 +12,15 @@ class Stack:
         self.bottom = None
         self.length = 0
 
+    def isEmpty(self):
+        return self.top is None
+
     def peek(self):
         if self.length == 0:
             print("The stack is empty")
             return False
         else:
-            print(self.top.data)
-            return True
+            return self.top
 
     def push(self, data):
         new_node = Node(data)
@@ -32,9 +34,11 @@ class Stack:
             self.length += 1
 
     def pop(self):
-        pass
+        i = 1 
+        curr_node = self.bottom
+        while 
 
-    def isempty(self):
+    def printt(self):
         pass
 
 
@@ -43,4 +47,3 @@ st = Stack()
 st.push('Google')
 st.push('9Anime')
 st.push('Legend of the galactic heroes')
-st.peek()
