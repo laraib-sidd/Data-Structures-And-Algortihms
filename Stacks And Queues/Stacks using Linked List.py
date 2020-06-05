@@ -35,3 +35,7 @@ class Stack:
 
     def isempty(self):
         pass
+
+
+st = Stack()
+st.peek()
