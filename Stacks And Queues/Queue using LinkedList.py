@@ -24,6 +24,11 @@ class Queue:
             self.first = new_node
             self.last = new_node
             self.lenght += 1
+            return
+        self.last.next = new_node
+        self.last = new_node
+        self.lenght += 1
+        
 
     def dequeue(self):
         pass
