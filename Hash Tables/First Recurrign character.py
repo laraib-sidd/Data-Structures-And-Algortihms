@@ -38,6 +38,7 @@ def recurring_character(mylist):
 
 
 # Example
-mylist = [2, 5, 5, 2, 3, 5, 1, 2, 4]
-test = recurring_character(mylist)
-print(test)
+if __name__ == "__main__":
+    mylist = [2, 5, 5, 2, 3, 5, 1, 2, 4]
+    test = recurring_character(mylist)
+    print(test)
