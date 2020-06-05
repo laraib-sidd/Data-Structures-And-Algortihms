@@ -48,9 +48,13 @@ class DoublyLinkedList:
 
     def insert(self, index, data):
         new_node = Node(data)
+        if index == 0:
+            self.prepend(data)
+            return True
+        
         if index >= self.length:
             self.append(data)
             return True
         
-        while i <
-
+        else:
+            
