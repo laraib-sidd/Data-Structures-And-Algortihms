@@ -61,8 +61,12 @@ class LinkedList():
                 break
             i += 1
             temp = temp.next
-    
+
     def printl(self):
         temp = self.head
-
+        while temp is not None:
+            print(temp.data, end=' ')
+            temp = temp.next
+        print()
+        print(f'Length = {self.length}')
 
