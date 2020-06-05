@@ -95,3 +95,11 @@ class DoublyLinkedList:
             temp = temp.next
         print()
         print(f'Length : {self.length}')
+
+# Example
+dd = DoublyLinkedList()
+dd.append(13)
+dd.append(15)
+dd.append(432)
+dd.printd()
+print('\n')
