@@ -30,6 +30,7 @@ if __name__ == "__main__":
     st.push('Google')
     st.push('9Anime')
     st.push('Legend of the galactic heroes')
-    st.pop()
     print(st.isEmpty())
+    print(st.pop())
     print(st)
+    print(st.peek())
