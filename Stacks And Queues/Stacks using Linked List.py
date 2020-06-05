@@ -13,10 +13,7 @@ class Stack:
         self.length = 0
 
     def isEmpty(self):
-        if self.head is None:
-            return True
-        else:
-            return False
+        return self.top is None
 
     def peek(self):
         if self.length == 0:
@@ -37,13 +34,16 @@ class Stack:
         self.length += 1
 
     def pop(self):
-        if self.isEmpty():
-            return None
-        else:
-            popped_node = self.top
-            self.top = self.head.next
-            popped_node.next = None
-            return popped_node
+        i = 1
+        curr_node = self.bottom
+        while i != self.length-1:
+            curr_node = curr_node.next
+            i += 1
+        popped_value = curr_node.next
+        curr_node.next = None
+        self.top = curr_node
+        self.length -= 1
+        return popped_value.data
 
     def printt(self):
         temp = self.bottom
