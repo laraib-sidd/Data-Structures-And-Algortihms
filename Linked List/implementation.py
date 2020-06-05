@@ -51,6 +51,7 @@ class LinkedList():
         if index >= self.length:
             self.append(data)
             return
+
         while i < self.length:
             if i == index - 1:
                 temp.next, new_node.next = new_node, temp.next
@@ -66,6 +67,7 @@ class LinkedList():
                 self.head = temp.next
                 self.length -= 1
                 break
+
             if i == index - 1:
                 temp.next = temp.next.next
                 self.length -= 1
