@@ -11,15 +11,15 @@ class Queue:
         self.first = None
         self.last = None
         self.lenght = 0
-    
-    def peek():
+
+    def peek(self):
         pass
 
-    def push():
-        pass
-    
-    def pop():
+    def push(self, data):
         pass
 
-    def printt()
+    def pop(self):
+        pass
+
+    def printt(self):
         pass
