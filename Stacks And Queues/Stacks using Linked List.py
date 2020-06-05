@@ -37,5 +37,6 @@ class Stack:
         pass
 
 
+# Example
 st = Stack()
 st.peek()
