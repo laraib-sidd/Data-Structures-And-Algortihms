@@ -98,6 +98,7 @@ class DoublyLinkedList:
 
 
 # Example
+if __name__ == "__main__":
     dd = DoublyLinkedList()
     dd.append(13)
     dd.append(15)
