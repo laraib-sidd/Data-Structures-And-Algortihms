@@ -55,3 +55,14 @@ class LinkedList():
                 self.head = temp.next
                 self.length -= 1
                 break
+            if i == index - 1:
+                temp.next = temp.next.next
+                self.length -= 1
+                break
+            i += 1
+            temp = temp.next
+    
+    def printl(self):
+        temp = self.head
+
+
