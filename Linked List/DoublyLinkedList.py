@@ -22,8 +22,8 @@ class Node:
 class DoublyLinkedList:
 
     def __init__(self):
-        self.next = None
-        self.prev = None
+        self.head = None
+        self.tail = None
         self.length = 1
 
     def append(self, data):
