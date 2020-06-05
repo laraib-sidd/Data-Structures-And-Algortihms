@@ -31,7 +31,7 @@ class Stack:
             self.length += 1
 
     def pop(self):
-        i = 1
+        pass
 
     def isempty(self):
         pass
