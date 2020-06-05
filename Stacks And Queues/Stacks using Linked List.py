@@ -17,7 +17,8 @@ class Stack:
             print("The stack is empty")
             return False
         else:
-            return self.top
+            print(self.top.data)
+            return True
 
     def push(self, data):
         new_node = Node(data)
@@ -39,4 +40,7 @@ class Stack:
 
 # Example
 st = Stack()
+st.push('Google')
+st.push('9Anime')
+st.push('Legend of the galactic heroes')
 st.peek()
