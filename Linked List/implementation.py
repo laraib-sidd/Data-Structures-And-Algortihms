@@ -95,6 +95,7 @@ class LinkedList():
         self.head = temp
 
 
+# Example
 ll = LinkedList()
 ll.append(4)
 ll.append(14)
