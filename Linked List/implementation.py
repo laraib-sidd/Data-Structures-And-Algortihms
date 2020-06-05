@@ -100,4 +100,3 @@ ll.append(14)
 ll.append(1)
 ll.append(544)
 ll.printl()
-

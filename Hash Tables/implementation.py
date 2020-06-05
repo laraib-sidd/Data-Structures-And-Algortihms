@@ -52,7 +52,7 @@ prices.set('oranges', 300)
 prices.set('bananas', 3243)
 
 grape_price = prices.get('grapes')
-keys = prices.keys() 
+keys = prices.keys()
 item = prices.items('grapes')
 
 print(prices)
