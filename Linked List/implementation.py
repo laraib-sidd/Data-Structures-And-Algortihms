@@ -51,7 +51,7 @@ class LinkedList():
         temp = self.head
         if index >= self.length:
             self.append(data)
-            return
+            return True
 
         while i < self.length:
             if i == index - 1:
