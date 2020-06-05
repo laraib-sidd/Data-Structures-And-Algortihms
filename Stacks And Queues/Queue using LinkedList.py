@@ -13,7 +13,7 @@ class Queue:
         self.lenght = 0
 
     def isEmpty(self):
-        pass
+        return self.first is None
 
     def peek(self):
         pass
