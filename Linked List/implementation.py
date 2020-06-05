@@ -46,3 +46,6 @@ class LinkedList():
                 break
             temp = temp.next
             i += 1
+
+    def remove(self, index):
+        pass
