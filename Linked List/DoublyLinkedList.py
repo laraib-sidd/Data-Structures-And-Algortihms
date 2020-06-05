@@ -105,7 +105,9 @@ dd.append(432)
 dd.printd()
 print('\n')
 
-dd.insert(3,391)
-dd.insert(5,3121)
+dd.insert(3, 391)
+dd.insert(5, 3121)
 dd.printd()
 print('\n')
+
+
