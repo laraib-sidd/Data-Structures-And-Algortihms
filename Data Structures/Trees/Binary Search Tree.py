@@ -66,6 +66,7 @@ class BinarySearchTree:
     def loopup(self, data):
         pass
 
+
 # Driver Code
 if __name__ == "__main__":
     tree = BinarySearchTree()
