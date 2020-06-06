@@ -64,6 +64,7 @@ class BinarySearchTree:
         if not self.root:
             self.root = new_node
             return
+
         else:
             curr_node = self.root
             while True:
@@ -77,9 +78,11 @@ class BinarySearchTree:
 
                 elif data > curr_node.data:
                     # Right
-                    if curr_node.right == None:
+                    if curr_node.right is None:
                         curr_node.right = new_node
                         return
+                    else:
+                        curr_node = curr_node.right
 
 
 
