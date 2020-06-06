@@ -98,7 +98,7 @@ class BinarySearchTree:
 
     def print_tree(self):
         if self.root is not None:
-            self.printt(self.root)
+            self._printt(self.root)
 
     # Inorder traversal (We got sorted order of elements in tree)
     def _printt(self, curr_node):
