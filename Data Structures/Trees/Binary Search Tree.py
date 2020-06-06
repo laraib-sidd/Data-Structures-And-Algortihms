@@ -2,7 +2,7 @@
 Binary search Tree
 Counting Number of nodes on a level:
 Level n : 2^n
-
+Example : Level 0 : 2^0 = 1.
 '''
 
 '''
