@@ -15,6 +15,7 @@ In a BST:
 than the current node.
 * If we traverse the left side the value is always smaller
 than the current node.
+* A parent should only have two children.
 '''
 
 '''
