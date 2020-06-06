@@ -39,6 +39,11 @@ Lookup : O(N)
 Insert : O(N)
 Delete : O(N)
 '''
+""" Tree To Make:
+        9
+    4       20
+  1    6  15   170
+"""
 
 
 class Node:
@@ -57,7 +62,6 @@ class BinarySearchTree:
     def insert(self, data):
         if not self.root:
             self.root = data
-
 
     def loopup(self, data):
         pass
