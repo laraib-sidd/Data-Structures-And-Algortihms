@@ -74,9 +74,12 @@ class BinarySearchTree:
                         return
                     else:
                         curr_node = curr_node.left
-                 
+
                 elif data > curr_node.data:
                     # Right
+                    if curr_node.right == None:
+                        curr_node.right = new_node
+                        return
 
 
 
