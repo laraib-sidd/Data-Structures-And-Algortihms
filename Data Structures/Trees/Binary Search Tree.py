@@ -70,3 +70,10 @@ class BinarySearchTree:
 if __name__ == "__main__":
     tree = BinarySearchTree()
     tree.insert(9)
+    tree.insert(9)
+    tree.insert(9)
+    tree.insert(9)
+    tree.insert(9)
+    tree.insert(9)
+    tree.insert(9)
+    tree.insert(9)
