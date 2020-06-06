@@ -55,7 +55,9 @@ class BinarySearchTree:
         self.root = None
 
     def insert(self, data):
-        pass
+        if not self.root:
+            self.root = data
+
 
     def loopup(self, data):
         pass
