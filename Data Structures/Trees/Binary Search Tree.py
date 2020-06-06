@@ -97,7 +97,10 @@ class BinarySearchTree:
                 curr_node = curr_node.right
 
     def print_tree(self):
-        pass
+        if self.root is not None:
+            self.print_tree(self.root)
+    
+    
 
 
 # Driver Code
