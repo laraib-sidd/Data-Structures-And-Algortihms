@@ -8,6 +8,7 @@ Total Number of node:
 2^h -1 , where 'h' is height of the tree.
 
 log nodes = height
+
 BST uses Divide and conquer method.
 '''
 
