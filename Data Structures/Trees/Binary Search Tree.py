@@ -99,10 +99,13 @@ class BinarySearchTree:
     def print_tree(self):
         if self.root is not None:
             self.printt(self.root)
-    
+
     # Inorder traversal (We got sorted order of elements in tree)
-    def printt(self):
-        
+    def printt(self, curr_node):
+        if curr_node is not None:
+            self.printt(curr_node.left)
+            print(str(curr_node.data))
+            self.printt(curr_node.right)
 
 
 # Driver Code
