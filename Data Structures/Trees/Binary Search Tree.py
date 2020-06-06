@@ -66,6 +66,14 @@ class BinarySearchTree:
             return
         else:
             curr_node = self.root
+            while True:
+                if data < curr_node.data:
+                    # Left
+                    if curr_node.left is None:
+                        curr_node.left = new_node
+                    else:
+                        
+
 
     def loopup(self, data):
         pass
