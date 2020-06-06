@@ -67,3 +67,6 @@ class BinarySearchTree:
         pass
 
 # Driver Code
+if __name__ == "__main__":
+    tree = BinarySearchTree()
+    tree.insert(9)
