@@ -105,7 +105,6 @@ class BinarySearchTree:
         if curr_node is not None:
             self.printt(curr_node.left)
             print(str(curr_node.data), end='\t')
-            print('\n')
             self.printt(curr_node.right)
 
 
