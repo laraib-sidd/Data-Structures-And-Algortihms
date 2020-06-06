@@ -110,12 +110,12 @@ class BinarySearchTree:
 
 # Driver Code
 if __name__ == "__main__":
-    tree = BinarySearchTree()
-    tree.insert(9)
-    tree.insert(4)
-    tree.insert(6)
-    tree.insert(20)
-    tree.insert(170)
-    tree.insert(15)
-    tree.insert(1)
-
+    bst = BinarySearchTree()
+    bst.insert(9)
+    bst.insert(4)
+    bst.insert(6)
+    bst.insert(20)
+    bst.insert(170)
+    bst.insert(15)
+    bst.insert(1)
+    bst.print_tree()
