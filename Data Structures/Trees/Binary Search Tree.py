@@ -52,4 +52,5 @@ class Node:
 class BinarySearchTree:
 
     def __init__(self):
-        self
+        self.root = None
+    
