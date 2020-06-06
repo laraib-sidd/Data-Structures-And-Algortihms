@@ -56,3 +56,6 @@ class BinarySearchTree:
     
     def insert(self, data):
         pass
+
+    def loopup(self, data):
+        pass
