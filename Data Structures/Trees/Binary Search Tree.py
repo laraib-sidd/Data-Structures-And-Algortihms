@@ -110,3 +110,4 @@ if __name__ == "__main__":
     tree.insert(170)
     tree.insert(15)
     tree.insert(1)
+
