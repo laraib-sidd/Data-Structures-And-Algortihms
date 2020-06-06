@@ -11,7 +11,9 @@ log nodes = height
 
 BST uses Divide and conquer method.
 In a BST:
-* If we traverse the right side the value is always greater 
+* If we traverse the right side the value is always greater
+than the current node.
+* If we traverse the left side the value is always smaller 
 than the current node.
 '''
 
