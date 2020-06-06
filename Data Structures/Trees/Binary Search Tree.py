@@ -60,8 +60,10 @@ class BinarySearchTree:
         self.root = None
 
     def insert(self, data):
+        new_node = Node(data)
         if not self.root:
-            self.root = data
+            self.root = new_node
+            return
 
     def loopup(self, data):
         pass
