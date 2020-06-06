@@ -10,6 +10,9 @@ Total Number of node:
 log nodes = height
 
 BST uses Divide and conquer method.
+In a BST:
+* If we traverse the right side the value is always greater 
+than the current node.
 '''
 
 '''
