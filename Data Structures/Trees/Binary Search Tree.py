@@ -88,8 +88,13 @@ class BinarySearchTree:
         curr_node = self.root
         while True:
             if curr_node.node is None:
-                
-
+                return False
+            if curr_node.data == data:
+                return True
+            elif data < curr_node.data:
+                curr_node = curr_node.left
+            elif data > curr_node.data:
+                curr_node = curr_node.right
 
 # Driver Code
 if __name__ == "__main__":
