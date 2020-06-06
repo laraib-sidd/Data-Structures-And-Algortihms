@@ -26,5 +26,9 @@ Lookup : O(log N)
 Insert : O(log N)
 Delete : O(log N)
 
-Unba
+Unbalanced Tree:
+Lookup : O(N)
+Insert : O(N)
+Delete : O(N)
+
 '''
