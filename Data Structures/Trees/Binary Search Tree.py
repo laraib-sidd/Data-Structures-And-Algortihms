@@ -74,7 +74,9 @@ class BinarySearchTree:
                         return
                     else:
                         curr_node = curr_node.left
-                        
+                 
+                elif data > curr_node.data:
+                    # Right
 
 
 
