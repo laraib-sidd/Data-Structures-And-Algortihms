@@ -22,6 +22,8 @@ Better than O(n)
 Ordered
 Flexible Size
 
+Disadvatage:
+No O(1) operations
 '''
 
 '''
