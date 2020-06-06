@@ -6,6 +6,8 @@ Example : Level 0 : 2^0 = 1.
 
 Total Number of node:
 2^h -1 , where 'h' is height of the tree.
+
+log nodes = height
 '''
 
 '''
