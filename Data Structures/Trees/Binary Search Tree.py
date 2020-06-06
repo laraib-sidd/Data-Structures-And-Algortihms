@@ -96,6 +96,10 @@ class BinarySearchTree:
             elif data > curr_node.data:
                 curr_node = curr_node.right
 
+    def print_tree(self):
+        pass
+
+
 # Driver Code
 if __name__ == "__main__":
     tree = BinarySearchTree()
