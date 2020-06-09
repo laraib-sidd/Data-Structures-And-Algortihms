@@ -128,7 +128,7 @@ class BinarySearchTree:
                         elif curr_node.data > parent_node.data:
                             parent_node.right = curr_node.left
 
-                # Option 2: Right child which doesnt have a left child
+                # Option 2: Right child which doesn't have a left child
                 elif curr_node.right.left is None:
                     curr_node.right.left = curr_node.left
                     if parent_node is None:
