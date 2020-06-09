@@ -113,9 +113,11 @@ class BinarySearchTree:
 
             elif data == curr_node.data:
                 if curr_node.right is None:
-                    pass
+                    curr_node = curr_node.left
+                    return True
                 elif curr_node.left is None:
-                    pass
+                    curr_node = curr_node.right
+                    return True
                 else:
                     pass
 
