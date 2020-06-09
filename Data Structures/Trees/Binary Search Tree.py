@@ -101,8 +101,9 @@ class BinarySearchTree:
         parent_node = None
         if curr_node is None:
             return False
-        while True:
-            pass
+        while curr_node:
+            if data < curr_node.data:
+                pass
 
     def print_tree(self):
         if self.root is not None:
