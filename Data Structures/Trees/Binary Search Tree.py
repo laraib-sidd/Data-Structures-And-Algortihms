@@ -140,10 +140,14 @@ class BinarySearchTree:
                     leftmostparent.left = leftmost.right
                     leftmost.left = curr_node.left
                     leftmost.right = curr_node.right
-                    if parent_node = None:
+                    if parent_node is None:
                         self.root = leftmost
                     else:
                         if curr_node.data < parent_node.data:
+                            parent_node.left = leftmost
+                        elif curr_node.data > parent_node.data:
+                            parent_node.right = leftmost
+        return True
 
     def print_tree(self):
         if self.root is not None:
