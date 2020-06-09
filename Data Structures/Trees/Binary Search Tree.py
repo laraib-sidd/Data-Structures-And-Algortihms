@@ -129,9 +129,7 @@ class BinarySearchTree:
     def printt(self, curr_node):
         if curr_node is not None:
             self.printt(curr_node.left)
-            print('i')
             print(str(curr_node.data), end='\t')
-            print('j')
             self.printt(curr_node.right)
 
 
