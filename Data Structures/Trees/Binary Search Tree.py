@@ -112,7 +112,11 @@ class BinarySearchTree:
                 curr_node = curr_node.right
 
             elif data == curr_node.data:
-                if curr_node.right == None:
+                if curr_node.right is None:
+                    pass
+                elif curr_node.left is None:
+                    pass
+                else:
                     pass
 
     def print_tree(self):
