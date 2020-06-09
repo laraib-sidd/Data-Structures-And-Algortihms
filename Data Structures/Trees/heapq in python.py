@@ -15,9 +15,10 @@ print(x)
 heapq.heappush(x, 0)
 print(x)
 
+# To pop elements out of the heap.
 print(heapq.heappop(x))
 print(x)
 
 # Used to pop and push the element in same time
-print (heapq.heappushpop(x, 5)) 
+print(heapq.heappushpop(x, 34))
 print(x)
