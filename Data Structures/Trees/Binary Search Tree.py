@@ -140,6 +140,7 @@ class BinarySearchTree:
                             parent_node.right = curr_node.right
                 # Option 3: Right child that has a left child
                 else:
+                    # find the Right child's left most child
                     leftmost = curr_node.right.left
                     leftmostparent = curr_node.right
                     while leftmost.left is not None:
