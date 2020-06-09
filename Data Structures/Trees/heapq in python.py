@@ -13,7 +13,7 @@ print(x)
 
 # To push elements in the heap.
 heapq.heappush(x, 0)
-print(x)
+print(x, end ='\n')
 
 # To pop elements out of the heap.
 print(heapq.heappop(x))
