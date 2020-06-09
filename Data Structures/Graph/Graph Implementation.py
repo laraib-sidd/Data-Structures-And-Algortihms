@@ -13,3 +13,8 @@ class Graph:
 
     def addedge(self, node1, node2):
         pass
+
+
+# Driver code
+if __name__ == "__main__":
+    pass
