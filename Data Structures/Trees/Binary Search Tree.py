@@ -112,10 +112,11 @@ class BinarySearchTree:
                 curr_node = curr_node.right
 
             elif data == curr_node.data:
+
                 if curr_node.right is None:
                     if parent_node is None:
                         self.root = curr_node.left
-                        
+                    
                 elif curr_node.left is None:
                     curr_node = curr_node.right
                     return True
