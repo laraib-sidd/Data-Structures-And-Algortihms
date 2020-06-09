@@ -17,7 +17,11 @@ class Graph:
         self.adjacentlist[node2].append(node1)
 
     def showconnection(self):
-        pass
+        for x in self.adjacentlist:
+            print(x, end=" --> ")
+            for i in self.adjacentlist[x]:
+                print(i, end='|')
+            print()
 
 
 # Driver code
@@ -39,3 +43,4 @@ if __name__ == "__main__":
     myGraph.addEdge('0', '2')
     myGraph.addEdge('6', '5')
     print(myGraph)
+    myGraph.showconnection()
