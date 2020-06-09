@@ -104,6 +104,10 @@ class BinarySearchTree:
         while curr_node:
             if data < curr_node.data:
                 pass
+            elif data > curr_node.data:
+                pass
+            elif data == curr_node.data:
+                pass
 
     def print_tree(self):
         if self.root is not None:
