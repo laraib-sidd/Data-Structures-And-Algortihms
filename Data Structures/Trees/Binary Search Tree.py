@@ -129,6 +129,8 @@ class BinarySearchTree:
                     else:
                         if curr_node.data < parent_node.data:
                             parent_node.left = curr_node.right
+                        elif curr_node.data > parent_node.data:
+                            parent_node.right = curr_node.right
                 else:
                     pass
 
