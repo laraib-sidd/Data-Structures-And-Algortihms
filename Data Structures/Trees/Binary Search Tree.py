@@ -95,8 +95,12 @@ class BinarySearchTree:
                 curr_node = curr_node.left
             elif data > curr_node.data:
                 curr_node = curr_node.right
+
     def remove(self, data):
-        pass
+        curr_node = self.root
+        while True:
+            if curr_node is None:
+                return False
     def print_tree(self):
         if self.root is not None:
             self.printt(self.root)
