@@ -5,6 +5,9 @@ class Graph:
         self.numberofnodes = 0
         self.adjacentlist = {}
 
+    def __str__(self):
+        return str(self.__dict__)
+
     def addvertex(self, node):
         pass
 
