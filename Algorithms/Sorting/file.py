@@ -1,14 +1,12 @@
-# global counter
-counter = 0
+'''
+Write two functions that finds the factorial of any number.
+One should use recursive , the other should just use a for loop.
+'''
 
+# Recursive
+def fact_recusive(number):
+    pass
 
-def func(i):
-    # global counter
-    if i == 2:
-        return 'done'
-    i += 1
-    print(i)
-    return func(i)
-
-
-print(func(counter))
+# Iterative
+def fact_iterative(number):
+    pass 
