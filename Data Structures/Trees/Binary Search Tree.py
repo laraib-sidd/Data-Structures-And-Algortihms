@@ -102,6 +102,7 @@ class BinarySearchTree:
             if curr_node is None:
                 return False
             elif data == curr_node.data:
+
                 return
 
     def print_tree(self):
