@@ -10,7 +10,7 @@ class Graph:
 
     def addvertex(self, node):
         self.adjacentlist['node'] = []
-
+        self.numberofnodes += 1
 
     def addedge(self, node1, node2):
         pass
