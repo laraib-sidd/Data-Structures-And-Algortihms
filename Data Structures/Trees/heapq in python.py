@@ -7,5 +7,5 @@ Delete : O(log N)
 '''
 
 import heapq
-x = [5, 2, 23, 12, 123, 312, 31]
-heapq.heapify(x)
+x = [2, 32, 213, 12, 321, 312]
+print(x)
