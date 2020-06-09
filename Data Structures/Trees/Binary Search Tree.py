@@ -120,6 +120,7 @@ class BinarySearchTree:
                 elif curr_node.left is None:
                     curr_node = curr_node.right
                     return True
+
                 else:
                     pass
 
