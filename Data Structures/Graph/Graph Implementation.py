@@ -5,4 +5,6 @@ class Graph:
         self.numberofnodes = 0
         self.adjacentlist = {}
 
-
+    def addvertex(self,node):
+        pass
+    
