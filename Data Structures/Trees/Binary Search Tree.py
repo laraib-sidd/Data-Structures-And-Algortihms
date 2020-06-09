@@ -99,9 +99,9 @@ class BinarySearchTree:
     def remove(self, data):
         curr_node = self.root
         if curr_node is None:
-                return False
+            return False
         while True:
-            elif data == curr_node.data:
+            pass
 
                 return
 
