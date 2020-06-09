@@ -112,6 +112,8 @@ class BinarySearchTree:
                 curr_node = curr_node.right
 
             elif data == curr_node.data:
+                # We have a match, get to work!
+                # Option 1: No right child:
 
                 if curr_node.right is None:
                     if parent_node is None:
