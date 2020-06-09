@@ -9,7 +9,8 @@ class Graph:
         return str(self.__dict__)
 
     def addvertex(self, node):
-        pass
+        self.adjacentlist['node'] = []
+
 
     def addedge(self, node1, node2):
         pass
