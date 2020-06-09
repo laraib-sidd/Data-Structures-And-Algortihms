@@ -119,8 +119,12 @@ class BinarySearchTree:
                     if parent_node is None:
                         self.root = curr_node.left
                     else:
+                        # if parent > current value,
+                        # make current left child a child of parent
                         if curr_node.data < parent_node.data:
                             parent_node.left = curr_node.left
+                        # if parent < current value,
+                        #  make left child a right child of parent
                         elif curr_node.data > parent_node.data:
                             parent_node.right = curr_node.left
 
