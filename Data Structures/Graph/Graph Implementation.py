@@ -8,11 +8,11 @@ class Graph:
     def __str__(self):
         return str(self.__dict__)
 
-    def addvertex(self, node):
+    def addVertex(self, node):
         self.adjacentlist[node] = []
         self.numberofnodes += 1
 
-    def addedge(self, node1, node2):
+    def addEdge(self, node1, node2):
         self.adjacentlist[node1].append(node2)
         self.adjacentlist[node2].append(node1)
 
