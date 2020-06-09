@@ -84,7 +84,7 @@ class BinarySearchTree:
                     else:
                         curr_node = curr_node.right
 
-    def loopup(self, data):
+    def lookup(self, data):
         curr_node = self.root
         while True:
             if curr_node.node is None:
