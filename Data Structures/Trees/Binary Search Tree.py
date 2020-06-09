@@ -172,4 +172,5 @@ if __name__ == "__main__":
     bst.insert(15)
     bst.insert(1)
     bst.print_tree()
+    bst.remove(9)
     print(bst.lookup(9))
