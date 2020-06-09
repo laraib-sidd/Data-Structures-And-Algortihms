@@ -26,6 +26,5 @@ print(x)
 # Used to get n largest elements in heap.
 print(heapq.nlargest(2,x))
 
-# Used to get n smallest elements in heap
+# Used to get n smallest elements in heap.
 print(heapq.nsmallest(2,x))
-
