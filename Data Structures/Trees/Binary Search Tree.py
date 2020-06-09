@@ -132,7 +132,8 @@ class BinarySearchTree:
                         elif curr_node.data > parent_node.data:
                             parent_node.right = curr_node.right
                 else:
-                    pass
+                    leftmost = curr_node.right.left
+                    leftmostparent = curr_node.rights
 
     def print_tree(self):
         if self.root is not None:
