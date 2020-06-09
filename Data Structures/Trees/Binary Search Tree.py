@@ -146,6 +146,7 @@ class BinarySearchTree:
                     while leftmost.left is not None:
                         leftmostparent = leftmost
                         leftmost = leftmost.left
+                    # Parent's left subtree is now leftmost's right subtree
                     leftmostparent.left = leftmost.right
                     leftmost.left = curr_node.left
                     leftmost.right = curr_node.right
