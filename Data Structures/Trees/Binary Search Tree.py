@@ -107,6 +107,9 @@ class BinarySearchTree:
             print(str(curr_node.data), end='\t')
             self.printt(curr_node.right)
 
+    def remove(self, data):
+        pass
+
 
 # Driver Code
 if __name__ == "__main__":
