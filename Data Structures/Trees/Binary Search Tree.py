@@ -103,8 +103,6 @@ class BinarySearchTree:
         while True:
             pass
 
-                return
-
     def print_tree(self):
         if self.root is not None:
             self.printt(self.root)
