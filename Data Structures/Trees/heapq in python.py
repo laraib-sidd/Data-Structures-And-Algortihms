@@ -10,3 +10,6 @@ import heapq
 x = [2, 32, 213, 12, 321, 312]
 heapq.heapify(x)
 print(x)
+
+heapq.heappush(x, 0)
+print(x)
