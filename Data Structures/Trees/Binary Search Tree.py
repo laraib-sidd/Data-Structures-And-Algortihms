@@ -110,6 +110,7 @@ class BinarySearchTree:
             elif data > curr_node.data:
                 parent_node = curr_node
                 curr_node = curr_node.right
+
             elif data == curr_node.data:
                 pass
 
