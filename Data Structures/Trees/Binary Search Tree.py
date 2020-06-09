@@ -87,7 +87,7 @@ class BinarySearchTree:
     def lookup(self, data):
         curr_node = self.root
         while True:
-            if curr_node.node is None:
+            if curr_node is None:
                 return False
             if curr_node.data == data:
                 return True
@@ -119,3 +119,4 @@ if __name__ == "__main__":
     bst.insert(15)
     bst.insert(1)
     bst.print_tree()
+    print(bst.lookup(9))
