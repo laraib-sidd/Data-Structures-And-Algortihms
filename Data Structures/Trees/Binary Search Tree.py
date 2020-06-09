@@ -137,6 +137,9 @@ class BinarySearchTree:
                     while leftmost.left is not None:
                         leftmostparent = leftmost
                         leftmost = leftmost.left
+                    leftmostparent.left = leftmost.right
+                    leftmost.left = curr_node.left
+                    leftmost.right = curr_node.right
 
     def print_tree(self):
         if self.root is not None:
