@@ -14,6 +14,9 @@ class Graph:
     def addedge(self, node1, node2):
         pass
 
+    def showconnection(self):
+        pass
+
 
 # Driver code
 if __name__ == "__main__":
