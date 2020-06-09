@@ -147,7 +147,7 @@ class BinarySearchTree:
                             parent_node.left = leftmost
                         elif curr_node.data > parent_node.data:
                             parent_node.right = leftmost
-            return True
+                return True
 
     def print_tree(self):
         if self.root is not None:
@@ -172,5 +172,5 @@ if __name__ == "__main__":
     bst.insert(15)
     bst.insert(1)
     bst.print_tree()
-    bst.remove(9)
+    print(bst.remove(170))
     print(bst.lookup(9))
