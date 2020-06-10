@@ -2,6 +2,7 @@
 and then recursion!'''
 
 
+# Iterative
 def iter_reverseString(str):
     try:
         if str or str > 2:
@@ -15,8 +16,7 @@ def iter_reverseString(str):
 
 
 def recur_reverseStrign(str):
-    pass
-
+    
 
 if __name__ == "__main__":
     iter_reverseString('My iterative example')
