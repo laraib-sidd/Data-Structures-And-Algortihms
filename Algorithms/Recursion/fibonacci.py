@@ -8,3 +8,11 @@ the sum of the 2 previous values, that means that for N=5 → 2+3
 
 For example: fibonacciRecursive(6) should return 8
 '''
+
+
+def fibo_recursive(num):
+    pass
+
+
+def fibo_iterative(num):
+    pass
