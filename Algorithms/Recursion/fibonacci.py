@@ -16,3 +16,9 @@ def fibo_recursive(num):
 
 def fibo_iterative(num):
     pass
+
+
+# Driver code
+if __name__ == "__main__":
+    print(f"Recursion : {fibo_recursive(8)}")
+    print(f"Iterative : {fibo_iterative(8)}")
