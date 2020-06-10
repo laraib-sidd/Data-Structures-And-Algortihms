@@ -17,14 +17,7 @@ def fibo_recursive(num):
 
 
 def fibo_iterative(num):
-    a = 0
-    b = 1
-    sum = 0
-    for i in range(0, num):
-        sum = a + b
-        a = b
-        b = sum
-    return sum
+    li = [0, 1]
 
 
 # Driver code
