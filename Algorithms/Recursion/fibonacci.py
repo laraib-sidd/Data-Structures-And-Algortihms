@@ -16,7 +16,8 @@ def fibo_recursive(num):
 
 def fibo_iterative(num):
     sum = 0
-    for i in range(num):
+    for i in range(1, num):
+        print(f"sum={sum},i={i}")
         sum = sum + i
     return sum
 
