@@ -17,9 +17,15 @@ def iter_reverseString(str):
 
 # Recursive
 def recur_reverseStrign(str):
-    pass
+    size = len(str)
+    if not str:
+        return
+    last_char = str[size - 1]
+    print(last_char, end="")
+    return recur_reverseStrign(str[:size - 1])
 
 
 if __name__ == "__main__":
     iter_reverseString('My iterative example')
-    recur_reverseStrign('My recursive example')
+    print()
+    recur_reverseStrign('My Recursive example')
