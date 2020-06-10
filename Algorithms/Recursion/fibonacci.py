@@ -16,7 +16,7 @@ def fibo_recursive(num):
     return fibo_recursive(num - 1) + fibo_recursive(num - 2)
 
 
-def fibo_iterative(num):
+def fibo_iterative(num):  # O(n)
     li = [0, 1]
     for i in range(2, num + 1):
         li.append(li[i - 2] + li[i - 1])
