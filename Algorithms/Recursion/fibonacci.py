@@ -11,14 +11,17 @@ For example: fibonacciRecursive(6) should return 8
 
 
 def fibo_recursive(num):
-    pass
+    return num + fibo_recursive(num+1)
 
 
 def fibo_iterative(num):
-    pass
+    sum = 0
+    for i in range(num):
+        sum = sum + i
+    return sum
 
 
 # Driver code
 if __name__ == "__main__":
-    print(f"Recursion : {fibo_recursive(8)}")
+    # print(f"Recursion : {fibo_recursive(8)}")
     print(f"Iterative : {fibo_iterative(8)}")
