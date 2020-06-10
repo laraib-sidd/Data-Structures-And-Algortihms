@@ -20,7 +20,7 @@ def fibo_iterative(num):
     li = [0, 1]
     for i in range(2, num + 1):
         li.append(li[i - 2] + li[i - 1])
-    return li[num]
+    return li
 
 
 # Driver code
