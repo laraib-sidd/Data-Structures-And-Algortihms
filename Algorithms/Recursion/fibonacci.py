@@ -21,9 +21,11 @@ def fibo_iterative(num):
     b = 1
     sum = 0
     for i in range(0, num):
-    sum = a + b
-    a = b
-    b = sum
+        sum = a + b
+        a = b
+        b = sum
+    return sum
+
 
 # Driver code
 if __name__ == "__main__":
