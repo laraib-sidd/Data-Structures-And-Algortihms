@@ -23,5 +23,5 @@ def fibo_iterative(num):
 
 # Driver code
 if __name__ == "__main__":
-    # print(f"Recursion : {fibo_recursive(8)}")
-    print(f"Iterative : {fibo_iterative(8)}")
+    print(f"Recursion : {fibo_recursive(8)}")
+    # print(f"Iterative : {fibo_iterative(8)}")
