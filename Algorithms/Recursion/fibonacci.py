@@ -22,6 +22,7 @@ def fibo_iterative(num):
         li.append(li[i - 2] + li[i - 1])
     return li[num]
 
+
 # Driver code
 if __name__ == "__main__":
     print(f"Recursion : {fibo_recursive(8)}")
