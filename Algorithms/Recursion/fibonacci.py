@@ -17,7 +17,7 @@ def fibo_recursive(num):
 
 
 def fibo_iterative(num):
-    pass
+    
 
 
 # Driver code
