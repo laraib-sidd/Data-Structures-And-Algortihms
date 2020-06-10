@@ -18,7 +18,10 @@ def fibo_recursive(num):
 
 def fibo_iterative(num):
     li = [0, 1]
+    for i in range(2, num + 1):
+        
 
+    return li[num]
 
 # Driver code
 if __name__ == "__main__":
