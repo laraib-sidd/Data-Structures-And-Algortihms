@@ -13,6 +13,7 @@ For example: fibonacciRecursive(6) should return 8
 def fibo_recursive(num):
     if num < 2:
         return num
+    return fibo_recursive(num - 1) + fibo_recursive(num - 2)
 
 
 def fibo_iterative(num):
