@@ -9,6 +9,6 @@ def iter_reverseString(str):
 def recur_reverseStrign(str):
     pass
 
-
-reverseString('yoyo mastery')
-# should return: 'yretsam oyoy'
+if __name__ == "__main__":
+    reverseString('yoyo mastery')
+    # should return: 'yretsam oyoy'
