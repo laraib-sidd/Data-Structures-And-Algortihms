@@ -3,7 +3,15 @@ and then recursion!'''
 
 
 def iter_reverseString(str):
-    pass
+    try:
+        if str or str > 2:
+            str = list(str)
+            str = str[::-1]
+            str = "".join(str)
+            print(str)
+            return True
+    except:
+        print("Incorrect Input")
 
 
 def recur_reverseStrign(str):
