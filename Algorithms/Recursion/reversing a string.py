@@ -11,5 +11,5 @@ def recur_reverseStrign(str):
 
 
 if __name__ == "__main__":
-    iter_reverseString('yoyo mastery')
-
+    iter_reverseString('My iterative example')
+    recur_reverseStrign('My recursive example')
