@@ -10,7 +10,7 @@ def mergeSort(arr):
     if len(arr) == 1:
         return arr
     size = len(arr)
-    mid = size / 2
+    mid = size // 2
     left = arr[:mid]
     right = arr[mid:]
     print(f'Left : {left}')
@@ -31,9 +31,10 @@ def merge(left, right):
             res.append(right[rightindex])
             rightindex += 1
         print(left, right)
-        print(res + left[leftindex] + right[rightindex])
-        return res + left[leftindex] + right[rightindex]
+        print(res + left[leftindex:] + right[rightindex:])
+        return res + left[leftindex:] + right[rightindex:]
 
 
 if __name__ == "__main__":
     num = [1, 34, 76, 9, 23, 912, 6, 36]
+    print(mergeSort(num))
