@@ -7,7 +7,8 @@ item in the list and putting it at the top.
 
 
 def slectionSort(arr):
-    
+    pass
+
 
 if __name__ == "__main__":
     numbers = [32, 43, 32, 1, 23, 21, 465, 987]
