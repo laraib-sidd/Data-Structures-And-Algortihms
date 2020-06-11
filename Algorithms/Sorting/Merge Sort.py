@@ -25,7 +25,7 @@ def merge(left, right):
     rightindex = 0
     while leftindex < len(left) and rightindex < len(right):
         if left[leftindex] < right[rightindex]:
-            result.append(left[leftindex])
+            res.append(left[leftindex])
             leftindex += 1
         else:
             res.append(right[rightindex])
@@ -36,4 +36,4 @@ def merge(left, right):
 
 
 if __name__ == "__main__":
-    pass
+    num = [1,34,76,9,23,912,6,36,]
