@@ -1,8 +1,8 @@
 """ Shortcut way
- def mergesortedarr(a,b):
- x=a+b
- x.sort()
- return x
+def mergesortedarr(a,b):
+x=a+b
+x.sort()
+return x
 
 a=[1,2,3,4]
 b=[3,7,9,12]
@@ -22,7 +22,6 @@ def mergesortarray(arr1, arr2):
     j = 0
 
     while i < len(arr1) and j < len(arr2):
-        print(arr1[i], arr2[j])
         if arr1[i] <= arr2[j]:
             mereged_array.append(arr1[i])
             i += 1
