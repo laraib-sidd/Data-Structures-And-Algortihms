@@ -8,7 +8,17 @@ Space Complexity: O(1)
 
 
 def slectionSort(arr):
-    i
+    i = 0
+    while i < len(arr):
+        minn = arr[i]
+        index = i
+        for j in range(i + 1, len(arr)):
+            if arr[j] < min:
+                index = j
+                minn = arr[j]
+            arr[i], arr[index] = arr[index], arr[i]
+            i += 1
+    return arr
 
 
 if __name__ == "__main__":
