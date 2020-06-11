@@ -20,7 +20,19 @@ def mergeSort(arr):
 
 
 def merge(left, right):
-    pass
+    res = []
+    leftindex = 0
+    rightindex = 0
+    while leftindex < len(left) and rightindex < len(right):
+        if left[leftindex] < right[rightindex]:
+            result.append(left[leftindex])
+            leftindex += 1
+        else:
+            res.append(right[rightindex])
+            rightindex += 1
+        print(left, right)
+        print(res + left[leftindex] + right[rightindex])
+        return res + left[leftindex] + right[rightindex]
 
 
 if __name__ == "__main__":
