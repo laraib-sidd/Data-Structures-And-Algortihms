@@ -10,5 +10,9 @@ def mergeSort(arr):
     pass
 
 
+def merge(left, right):
+    pass
+
+
 if __name__ == "__main__":
     pass
