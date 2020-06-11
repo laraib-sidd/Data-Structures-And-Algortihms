@@ -20,7 +20,15 @@ O(1)
 
 
 def bubblsort(arr):
-    pass
+    size = len(arr)
+    for i in range(0, size):
+        for j in range(0, size):
+            if arr[j] > arr[j + 1]:
+                temp = arr[j]
+                arr[j] = arr[j + 1]
+                arr[j + 1] = temp
+    return arr
+
 
 
 # Driver Code
