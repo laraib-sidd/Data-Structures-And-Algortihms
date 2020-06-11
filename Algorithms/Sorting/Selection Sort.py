@@ -7,15 +7,8 @@ item in the list and putting it at the top.
 
 
 def slectionSort(arr):
-    smallest = None
-    num = []
-    for i in range(0, len(arr)):
-        for j in range(0, len(arr)):
-            if arr[j] < arr[i]:
-                smallest = arr[j]
-        num.append(smallest)
-    return num
-
+    
 
 if __name__ == "__main__":
-    
+    numbers = [32,43,32,1,23,21,465,987]
+    print(slectionSort(numbers))
