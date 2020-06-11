@@ -11,4 +11,9 @@ smaller it switeches, its positions with '3'.
 no switching.
 * As there is no more switching, so the list is sorted.
 
+Time Complexitiy :
+Average : O(n^2)
+
+Space Complexity :
+O(1)
 '''
