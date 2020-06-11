@@ -13,6 +13,10 @@ def mergeSort(arr):
     mid = size / 2
     left = arr[:mid]
     right = arr[mid:]
+    print(f'Left : {left}')
+    print(f'Right : {right}')
+
+    return merge(mergeSort(left), mergeSort(right))
 
 
 def merge(left, right):
