@@ -22,6 +22,9 @@ O(1)
 def bubblsort(arr):
     pass
 
+
 # Driver Code
 if __name__ == "__main__":
-    pass
+    numbers = [43,21,4,12,32,52,35,27,86,29]
+    bubblsort(numbers)
+    print(numbers)
