@@ -13,13 +13,13 @@ def slectionSort(arr):
         min = arr[i]
         index = i
         for j in range(i+1, len(arr)):
-        if arr[j] < min:
-            index = j
-            min = arr[j]
-        arr[i] , arr[index] = arr[index] , arr[i]
+            if arr[j] < min:
+                index = j
+                min = arr[j]
+        arr[i], arr[index] = arr[index], arr[i]
         i += 1
-    
     return arr
+
 
 if __name__ == "__main__":
     num = [32, 43, 32, 1, 23, 21, 465, 987]
