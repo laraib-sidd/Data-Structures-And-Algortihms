@@ -7,7 +7,12 @@ Space Complexity : O(n)
 
 
 def mergeSort(arr):
-    pass
+    if len(arr) == 1:
+        return arr
+    size = len(arr)
+    mid = size / 2
+    left = arr[:mid]
+    right = arr[mid:]
 
 
 def merge(left, right):
