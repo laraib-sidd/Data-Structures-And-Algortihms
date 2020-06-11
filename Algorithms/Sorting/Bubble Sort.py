@@ -20,17 +20,18 @@ O(1)
 
 
 def bubblsort(arr):
-    size = len(arr)
-    for i in range(0, size):
-        for j in range(0, size):
+    i = 0
+    while i < len(arr):
+        for j in range(0, len(arr) - 1):
             if arr[j] > arr[j + 1]:
-                temp = arr[j]
-                arr[j] = arr[j + 1]
-                arr[j + 1] = temp
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+        i += 1
+    return arr
 
 
 # Driver Code
 if __name__ == "__main__":
     numbers = [43, 21, 4, 12, 32, 52, 35, 27, 86, 29]
+    print(f'Before Sorting : {numbers}')
     bubblsort(numbers)
-    print(numbers)
+    print(f'After Sorting : {numbers}')
