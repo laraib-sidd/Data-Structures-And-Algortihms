@@ -3,5 +3,11 @@
     "python.linting.enabled": true,
     "cSpell.words": [
         "yoyo"
-    ]
+    ],
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    }
 }
