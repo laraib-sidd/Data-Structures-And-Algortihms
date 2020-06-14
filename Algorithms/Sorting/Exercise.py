@@ -13,7 +13,8 @@ Quick sort
 """
 
 """
-4 - Massive database (can't fit all into memory) needs to sort through past year's user data
+4 - Massive database (can't fit all into memory) needs to sort through past
+year's user data.
 Merge Sort
 """
 
