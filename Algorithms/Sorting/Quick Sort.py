@@ -46,4 +46,6 @@ def quicksort(arr, low, high):
 
 if __name__ == "__main__":
     arr = [12, 4, 2, 3, 7, 43, 87, 9, 5]
-    qs = quicksort(arr)
+    n = len(arr)
+    quicksort(arr, 0, n-1)
+    print(arr)
