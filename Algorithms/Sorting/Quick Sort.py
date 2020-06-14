@@ -40,8 +40,8 @@ def quicksort(arr, low, high):
 
         # Separately sort elements before
         # partition and after partition
-        quickSort(arr, low, pi-1)
-        quickSort(arr, pi+1, high)
+        quicksort(arr, low, pi-1)
+        quicksort(arr, pi+1, high)
 
 
 if __name__ == "__main__":
