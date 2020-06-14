@@ -11,6 +11,10 @@ Space Complexity : O(n log(n))
 """
 
 
+def partition(arr, low, high):
+    pass
+
+
 def quicksort(arr):
     pass
 
