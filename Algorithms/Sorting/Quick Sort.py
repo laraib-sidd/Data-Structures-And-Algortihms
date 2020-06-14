@@ -1,8 +1,10 @@
 """
 Quick Sort:
-We pick a random pivot point, compare the values if the value
-is smaller we put it too the left of it,
-if bigger we put it too the righ of it.
+This function takes last element as pivot, places
+the pivot element at its correct position in sorted
+array, and places all smaller (smaller than pivot)
+to left of pivot and all greater elements to right
+of pivot.
 
 Time Complexity : O(n log(n))
 Space Complexity : O(n log(n))
