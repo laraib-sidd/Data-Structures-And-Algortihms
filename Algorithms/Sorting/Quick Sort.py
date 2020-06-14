@@ -12,4 +12,5 @@ def quicksort(arr):
     pass
 
 if __name__ == "__main__":
-    pass
+    arr = [12,4,2,3,7,43,87,9,5]
+    qs = quicksort
