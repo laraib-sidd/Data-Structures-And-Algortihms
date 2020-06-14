@@ -7,3 +7,9 @@ if bigger we put it too the righ of it.
 Time Complexity : O(n log(n))
 Space Complexity : O(n log(n))
 """
+
+def quicksort(arr):
+    pass
+
+if __name__ == "__main__":
+    pass
