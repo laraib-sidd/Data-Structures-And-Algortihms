@@ -35,6 +35,6 @@ Quick sort
 """
 
 """
-8 - You want to teach sorting
+8 - You want to teach sorting.
 Bubble sort
 """
