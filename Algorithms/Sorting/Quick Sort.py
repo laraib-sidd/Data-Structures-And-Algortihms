@@ -8,9 +8,11 @@ Time Complexity : O(n log(n))
 Space Complexity : O(n log(n))
 """
 
+
 def quicksort(arr):
     pass
 
+
 if __name__ == "__main__":
     arr = [12, 4, 2, 3, 7, 43, 87, 9, 5]
-    qs = quicksort
+    qs = quicksort(arr)
