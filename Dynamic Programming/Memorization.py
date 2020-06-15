@@ -3,6 +3,7 @@ Memorization :
 It is a way to store a solution to a problem in a memory,
 so we don't have to solve the sample problem again.
 """
+from functools import lru_cache
 
 
 def add80(num):
@@ -20,7 +21,7 @@ def memoizedAdd80(num):
         cache[num] = num + 80
     return cache[num]
 
-#Memoization 2
+# Memoization 2
 # https://docs.python.org/3.3/library/functools.html --> Doc for lru_cache
 
 if __name__ == "__main__":
