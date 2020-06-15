@@ -59,6 +59,8 @@ class BinarySearchTree:
             if curr_node.right:
                 queue.append(curr_node.right)
 
+        return mylist
+
 
 # Driver Code
 if __name__ == "__main__":
