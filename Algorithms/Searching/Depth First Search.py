@@ -56,10 +56,10 @@ class BinarySearchTree:
         return traverseInorder(self.root, [])
 
     def dfsPostorder(self):
-        pass
+        return traversePostorder(self.root, [])
 
     def dfsPreorder(self):
-        pass
+        return traversePreorder(self.root, [])
 
 
 # Driver Code
