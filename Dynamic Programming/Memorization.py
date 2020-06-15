@@ -7,11 +7,16 @@ def add80(num):
     return num + 80
 
 
-cache = []
+cache = {}
 
 
 def memoizedAdd80(num):
-    pass
+    if num in cache:
+        return cache[num]
+    else:
+        print('Long time')
+        cache[num] = num + 80
+    return cache[num]
 
 
 if __name__ == "__main__":
