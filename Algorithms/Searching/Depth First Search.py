@@ -52,7 +52,13 @@ class BinarySearchTree:
             elif value > temp.value:
                 temp = temp.right
 
-    def depthfirstsearch(self):
+    def dfsInorder(self):
+        return traverseInorder(self.root, [])
+
+    def dfsPostorder(self):
+        pass
+
+    def dfsPreorder(self):
         pass
 
 
