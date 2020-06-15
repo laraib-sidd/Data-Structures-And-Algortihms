@@ -24,6 +24,11 @@ def memoizedAdd80(num):
 # Memoization 2
 # https://docs.python.org/3.3/library/functools.html --> Doc for lru_cache
 
+
+@lru_cache(maxsize = 1000)
+def memoized2Add80(num):
+    return num + 80
+
 if __name__ == "__main__":
 
     print(add80(32))
