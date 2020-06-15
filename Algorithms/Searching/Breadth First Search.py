@@ -15,10 +15,34 @@ class BinaryFirstSearch:
         self.root = None
 
     def insert(self, value):
-        pass
+        new_node = Node(value)
+        if self.root is None:
+            self.root = None
+            return
+        temp = self.root
+        while True:
+            if new_node.value < temp.value:
+                if temp.left is None:
+                    temp.left = new_node
+                    break
+                elif new_node.value > temp.value:
+                    if temp.right is None:
+                        temp.right = new_node
+                        break
+                else:
+                    temp = temp.right
 
     def lookup(self, value):
-        pass
+        temp = self.root
+        while True:
+            if temp.value is value:
+                return True
+            elif temp is None:
+                return False
+            elif value < temp.value:
+                temp = temp.left
+            elif value > temp.right:
+                temp = temp.right
 
     def remove(self, value):
         pass
