@@ -63,14 +63,10 @@ class BinarySearchTree:
 
         return mylist
 
-    def recursivebfs(self):
-        currnode = self.root
-        mylist = []
-        queue = []
-        queue.append(currnode)
-
+    def recursivebfs(self, queue, mylist):
         if len(queue) == 0:
             return mylist
+        currnode = queue[0]
         del queue[0]
         mylist.append(currnode.value)
         if currnode.left:
@@ -78,7 +74,7 @@ class BinarySearchTree:
         if currnode.right:
             queue.append(currnode.right)
 
-        return self.recursivebfs()
+        return self.recursivebfs(queue, mylist)
 
 
 
@@ -95,4 +91,5 @@ if __name__ == "__main__":
     tree.insert(1)
 
     print(tree.lookup(170))
-    print(tree.breadthfirstsearch())
+    print("Iterative Approach: ", tree.breadthfirstsearch())
+    print("Recursive Approach: ", tree.recursivebfs([tree.root], []))
