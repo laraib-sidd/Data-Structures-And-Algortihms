@@ -9,12 +9,13 @@ def add80(num):
 
 cache = []
 
+
 def memoizedAdd80(num):
     pass
 
 
 if __name__ == "__main__":
-        
+
     print(add80(32))
     print(add80(31))
 
