@@ -68,7 +68,11 @@ class BinarySearchTree:
 
     def dfsPostrder(self, curr_node, mylist):
         if curr_node.left:
-            self.p
+            self.dfsPostrder(curr_node.left, mylist)
+        if curr_node.right:
+            self.dfsPostrder(curr_node.right, mylist)
+        mylist.append(curr_node.value)
+        return mylist
 
 
 # Driver Code
@@ -83,3 +87,6 @@ if __name__ == "__main__":
     tree.insert(1)
 
     print(tree.lookup(170))
+    print(tree.inorder(tree.root,[]))
+    print(tree.preorder(tree.root,[]))
+    print(tree.postorder(tree.root,[]
