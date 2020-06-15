@@ -77,8 +77,6 @@ class BinarySearchTree:
         return self.recursivebfs(queue, mylist)
 
 
-
-
 # Driver Code
 if __name__ == "__main__":
     tree = BinarySearchTree()
