@@ -59,11 +59,16 @@ class BinarySearchTree:
             self.dfsInorder(curr_node.right, mylist)
         return mylist
 
-    def dfsPostorder(self):
-        return traversePostorder(self.root, [])
+    def dfsPreorder(self, curr_node, mylist):
+        if curr_node is not None:
+            mylist.append(curr_node.value)
+            self.dfsPreorder(curr_node.left, mylist)
+            self.dfsPreorder(curr_node.right, mylist)
+        return mylist
 
-    def dfsPreorder(self):
-        return traversePreorder(self.root, [])
+    def dfsPostrder(self, curr_node, mylist):
+        if curr_node.left:
+            self.p
 
 
 # Driver Code
