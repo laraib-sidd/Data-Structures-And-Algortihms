@@ -20,6 +20,8 @@ def memoizedAdd80(num):
         cache[num] = num + 80
     return cache[num]
 
+#Memoization 2
+# https://docs.python.org/3.3/library/functools.html --> Doc for lru_cache
 
 if __name__ == "__main__":
 
