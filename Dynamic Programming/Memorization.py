@@ -1,5 +1,7 @@
 """
-Memorization Examples
+Memorization :
+It is a way to store a solution to a problem in a memory,
+so we don't have to solve the sample problem again.
 """
 
 
