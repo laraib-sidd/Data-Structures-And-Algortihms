@@ -9,6 +9,7 @@ PreOrder = [9, 4, 1, 6, 20, 15, 170]
 Preorder = [1, 6, 4, 15, 170, 20, 9]
 """
 
+
 class Node:
     def __init__(self, value):
         self.value = value
