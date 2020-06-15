@@ -10,7 +10,7 @@ class Node:
         self.left = None
 
 
-class BinaryFirstSearch:
+class BinarySearchTree:
     def __init__(self):
         self.root = None
 
@@ -44,8 +44,11 @@ class BinaryFirstSearch:
             elif value > temp.right:
                 temp = temp.right
 
-    def remove(self, value):
-        pass
+    def breadthfirstsearch(self):
+        curr_node = self.root
+        mylist = []
+        queue = []
+        queue.append(curr_node)
 
 
 # Driver Code
