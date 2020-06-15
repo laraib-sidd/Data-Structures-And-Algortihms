@@ -50,6 +50,15 @@ class BinarySearchTree:
         queue = []
         queue.append(curr_node)
 
+        while len(queue) > 0:
+            curr_node = queue[0]
+            del queue[0]
+            mylist.append(curr_node.value)
+            if curr_node.left:
+                queue.append(curr_node.left)
+            if curr_node.right:
+                queue.append(curr_node.right)
+
 
 # Driver Code
 if __name__ == "__main__":
