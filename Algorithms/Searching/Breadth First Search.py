@@ -17,7 +17,7 @@ class BinarySearchTree:
     def insert(self, value):
         new_node = Node(value)
         if self.root is None:
-            self.root = None
+            self.root = new_node
             return
         temp = self.root
         while True:
@@ -25,10 +25,12 @@ class BinarySearchTree:
                 if temp.left is None:
                     temp.left = new_node
                     break
-                elif new_node.value > temp.value:
-                    if temp.right is None:
-                        temp.right = new_node
-                        break
+                else:
+                    temp = temp.left
+            elif new_node.value > temp.value:
+                if temp.right is None:
+                    temp.right = new_node
+                    break
                 else:
                     temp = temp.right
 
@@ -41,7 +43,7 @@ class BinarySearchTree:
                 return False
             elif value < temp.value:
                 temp = temp.left
-            elif value > temp.right:
+            elif value > temp.value:
                 temp = temp.right
 
     def breadthfirstsearch(self):
@@ -64,4 +66,14 @@ class BinarySearchTree:
 
 # Driver Code
 if __name__ == "__main__":
-    pass
+    tree = BinarySearchTree()
+    tree.insert(9)
+    tree.insert(4)
+    tree.insert(6)
+    tree.insert(20)
+    tree.insert(170)
+    tree.insert(15)
+    tree.insert(1)
+
+    print(tree.lookup(170))
+    print(tree.breadthfirstsearch())
