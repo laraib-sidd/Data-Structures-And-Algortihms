@@ -38,3 +38,8 @@ if __name__ == "__main__":
     print()
     print(memoizedAdd80(23))
     print(memoizedAdd80(23))
+    print()
+    # Using python library to create cache
+    print(memoized2Add80(54))
+    print(memoized2Add80(54))
+    print(memoized2Add80.cache_info())
