@@ -23,5 +23,7 @@ if __name__ == "__main__":
 
     print(add80(32))
     print(add80(31))
+    # Each time we call the function it runs in the momory.
 
-# Each time we call the function it runs in the momory.
+    print(memoizedAdd80(23))
+    print(memoizedAdd80(23))
