@@ -91,3 +91,13 @@ if __name__ == "__main__":
     print(tree.lookup(170))
     print("Iterative Approach: ", tree.breadthfirstsearch())
     print("Recursive Approach: ", tree.recursivebfs([tree.root], []))
+
+"""
+        9
+    4          20
+  1     6  15      170
+
+Inorder = [1, 4, 6, 9, 15, 20, 170]
+PostOrder = []
+Preorder = []
+"""
