@@ -11,4 +11,15 @@ def fib_dp(num):
     else:
         return fib_dp(num - 1) + fib_dp(num - 2)
 
-    
+
+cache = {}
+
+def fibo(num):
+    if num in cache:
+        return cache[num]
+    elif num > 2:
+        cache[num] = num
+    else:
+        cache[num] = fibo(num - 1) + fibo(num - 2)
+
+    return cache[num]
