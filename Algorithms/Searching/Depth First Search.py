@@ -52,7 +52,8 @@ class BinarySearchTree:
             elif value > temp.value:
                 temp = temp.right
 
-    
+    def depthfirstsearch(self):
+        pass
 
 
 # Driver Code
@@ -67,5 +68,3 @@ if __name__ == "__main__":
     tree.insert(1)
 
     print(tree.lookup(170))
-    print("Iterative Approach: ", tree.breadthfirstsearch())
-    print("Recursive Approach: ", tree.recursivebfs([tree.root], []))
