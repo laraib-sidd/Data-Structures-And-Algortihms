@@ -4,13 +4,15 @@ Breadth First Search
 
 
 class Node:
-    def __init__(self):
-        pass
+    def __init__(self, value):
+        self.value = value
+        self.right = None
+        self.left = None
 
 
 class BinaryFirstSearch:
     def __init__(self):
-        pass
+        self.root = None
 
     def insert(self, value):
         pass
