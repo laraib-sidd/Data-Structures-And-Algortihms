@@ -5,12 +5,12 @@ If you know a solution is not far from the root of the tree:
 
 """
 If the tree is very deep and solutions are rare:
-* Depth First Search
+* Breadth First Search
 """
 
 """
 If the tree is very wide:
-* Breadth First Search
+* Depth First Search
 """
 
 """
