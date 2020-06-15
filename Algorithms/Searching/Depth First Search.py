@@ -52,8 +52,12 @@ class BinarySearchTree:
             elif value > temp.value:
                 temp = temp.right
 
-    def dfsInorder(self):
-        return traverseInorder(self.root, [])
+    def dfsInorder(self, curr_node, mylist):
+        if curr_node is not None:
+            self.dfsInorder(curr_node.left, mylist)
+            mylist.append(curr_node.value)
+            self.dfsInorder(curr_node.right, mylist)
+        return mylist
 
     def dfsPostorder(self):
         return traversePostorder(self.root, [])
