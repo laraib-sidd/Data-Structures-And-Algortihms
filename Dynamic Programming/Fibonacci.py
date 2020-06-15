@@ -14,6 +14,7 @@ def fib_dp(num):
 
 cache = {}
 
+
 def fibo(num):
     if num in cache:
         return cache[num]
@@ -23,3 +24,13 @@ def fibo(num):
         cache[num] = fibo(num - 1) + fibo(num - 2)
 
     return cache[num]
+
+
+if __name__ == "__main__":
+    print("Normal caching")
+    print(fibo(12))
+    print(cache)
+    print()
+    print("Using python Library")
+    print(fibo(22))
+    print(fib_dp.cache_info())
