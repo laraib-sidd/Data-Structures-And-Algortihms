@@ -87,6 +87,6 @@ if __name__ == "__main__":
     tree.insert(1)
 
     print(tree.lookup(170))
-    print("Inorder: ", tree.inorder(tree.root, []))
-    print("Preorder: ", tree.preorder(tree.root, []))
-    print("Postorder: ", tree.postorder(tree.root, []))
+    print("Inorder: ", tree.dfsInorder(tree.root, []))
+    print("Preorder: ", tree.dfsPreorder(tree.root, []))
+    print("Postorder: ", tree.dfsPostrder(tree.root, []))
