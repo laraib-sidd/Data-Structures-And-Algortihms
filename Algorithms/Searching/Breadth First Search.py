@@ -93,11 +93,11 @@ if __name__ == "__main__":
     print("Recursive Approach: ", tree.recursivebfs([tree.root], []))
 
 """
-        9
-    4          20
-  1     6  15      170
+         9
+    4         20
+  1     6  15     170
 
 Inorder = [1, 4, 6, 9, 15, 20, 170]
-PostOrder = []
+PreOrder = [9, 4, 1, 6, 20, 15, 170]
 Preorder = []
 """
