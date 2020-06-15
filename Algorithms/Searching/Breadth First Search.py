@@ -63,6 +63,25 @@ class BinarySearchTree:
 
         return mylist
 
+    def recursivebfs(self):
+        currnode = self.root
+        mylist = []
+        queue = []
+        queue.append(currnode)
+
+        if len(queue) == 0:
+            return mylist
+        del queue[0]
+        mylist.append(currnode.value)
+        if currnode.left:
+            queue.append(currnode.left)
+        if currnode.right:
+            queue.append(currnode.right)
+
+        return self.recursivebfs()
+
+
+
 
 # Driver Code
 if __name__ == "__main__":
